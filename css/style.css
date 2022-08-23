@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #111;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    padding: 8px 12px;
+    margin-top: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #111;
+    outline: none;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.container .img1 {
+    width: 200px;
+}
+
+.img2 {
+    width: 40%;
+    margin-right: 18px;
+    margin-top: -5px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.img {
+    width: 2%;
+}
